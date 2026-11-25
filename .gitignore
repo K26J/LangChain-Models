@@ -1,0 +1,27 @@
+# Environment variables & API keys (CRITICAL)
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Local model caches / vector stores (if you add RAG or local HF models later)
+*.bin
+*.safetensors
+.cache/
+
+# Editor & OS files
+.vscode/
+.DS_Store
+Thumbs.db
